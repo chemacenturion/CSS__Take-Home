@@ -1,103 +1,105 @@
 /* CSS Take Home Exercise */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 4rem;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(48, 48, 48);
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(48, 48, 48);
 }
 
 /* Container */
 .container {
-    display: flex;
-    width: 90%;
-    max-width: 1050px;
-    height: 85vh;
-    border: 20px solid white;
+  display: flex;
+  width: 90%;
+  max-width: 1050px;
+  height: 85vh;
+  border: 20px solid white;
 }
 
 /* Columns */
 .container__col-1,
 .container__col-2,
 .container__col-3 {
-    border: 2px solid black;
-    flex-grow: 1;
-    flex-basis: calc(50%/3);
-    font-size: x-large;
-    font-weight: 400;
-    font-family: fantasy;
+  border: 2px solid black;
+  flex-grow: 1;
+  flex-basis: calc(50% / 3);
+  font-size: x-large;
+  font-weight: 400;
+  font-family: fantasy;
 }
 
 /* Column 1 */
 .container__col-1 {
-    animation: color 1s ease-in-out infinite alternate;
+  animation: color 1s ease-in-out infinite alternate;
 }
 
 .container__text-one {
-    position: relative;
-    top: 46%;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  top: 46%;
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes color {
-    0% {
-        background-color: yellow ;
-    }
+  0% {
+    background-color: yellow;
+  }
 
-    100% {
-        background-color: blue;
-        color: white;
-    }
+  100% {
+    background-color: blue;
+    color: white;
+  }
 }
 
 /* Column 2 */
 .container__col-2 {
-    background-color: white;
+  background-color: white;
 }
 
 .container__text-two {
-    position: relative;
-    top: 46%;
-    display: flex;
-    justify-content: center;
-    animation: spin 3s ease-in-out infinite 0.1s;
+  position: relative;
+  top: 46%;
+  display: flex;
+  justify-content: center;
+  animation: spin 3s ease-in-out infinite 0.1s;
 }
 
 @keyframes spin {
-    100% {-webkit-transform: rotate(360deg);}
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 /* Column 3 */
 .container__col-3 {
-    background-color: blue;
+  background-color: blue;
 }
 
 .container__text-three {
-    position: relative;
-    top: 10%;
-    display: flex;
-    justify-content: center;
-    animation: ladder 2s ease-in-out forwards infinite alternate;
+  position: relative;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+  animation: ladder 2s ease-in-out forwards infinite alternate;
 }
 
 @keyframes ladder {
-    0% {
-        color: white;
-    }
+  0% {
+    color: white;
+  }
 
-    50% {
-        top: 46%;
-        color: black;
-    }
+  50% {
+    top: 46%;
+    color: black;
+  }
 
-    100% {
-        top: 80%;
-        color: white;
-    }
+  100% {
+    top: 80%;
+    color: white;
+  }
 }
