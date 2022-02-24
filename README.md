@@ -1,5 +1,8 @@
 ## CSS__Take-Home ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+## Deployed-Link
+Click [HERE](https://chemacenturion.github.io/CSS__Take-Home/) for deployed site!
+
 ## Assigned-Model
 ![Assigned-Model-GIF](https://github.com/chemacenturion/CSS__Take-Home/blob/main/assets/images/exersice-one.gif%20-%20Google%20Drive.gif?raw=true)
 
@@ -10,6 +13,7 @@
 This is the first exercise portion I have been tasked with for an entry level development position I'm currently interviewing for. This exercise tests my knowledge of CSS animations and flexbox.
 
 ## Table of Contents:
+* [Deployed-Link](#Deployed-Link)
 * [Assigned-Model](#Assigned-Model)
 * [Mock-Up](#Mock-Up)
 * [Usage](#Usage)
