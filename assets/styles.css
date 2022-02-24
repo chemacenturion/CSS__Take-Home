@@ -1,0 +1,48 @@
+/* CSS Take Home Exercise */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(48, 48, 48);
+}
+
+body {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Container */
+.container {
+    display: flex;
+    width: 50%;
+    height: 90vh;
+    border: 20px solid white;
+}
+
+/* Columns */
+.container__col-1,
+.container__col-2,
+.container__col-3 {
+    border: 2px solid black;
+    flex-grow: 1;
+    flex-basis: calc(50%/3);
+}
+
+/* Column 1 */
+.container__text-one {
+    position: relative;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Column 2 */
+.container__text-two {
+    
+}
+
+/* Column 3 */
+.container__text-three {
+    
+}
