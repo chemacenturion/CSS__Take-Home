@@ -22,7 +22,7 @@ This is the first exercise portion I have been tasked with for an entry level de
 * [Questions](#Questions)
 
 ## Usage
-This is the first portion of a three portion take home technical interview.
+This is the first portion (CSS) of a three portion take home technical interview.
 
 ## License
 MIT Copyright: Jose Centurion 2022
